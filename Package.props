@@ -1,0 +1,18 @@
+<Project>
+    <PropertyGroup>
+
+        <!-- Specifies the URL for the repository where the source code for the package resides and/or from which it's being built. -->
+        <RepositoryUrl>https://github.com/andreykarinskiy/ModularConsoleApplication</RepositoryUrl>
+
+        <!-- Specifies the name for the resulting package. 
+        If not specified, the pack operation will default to using the AssemblyName or directory name as the name of the package. -->
+        <!-- <PackageId>NugetUniqName</PackageId> -->
+
+        <!-- A semicolon-delimited list of tags that designates the package. -->
+        <PackageTags>tag1;tag2</PackageTags>
+
+        <!-- An SPDX license identifier or expression. For example, Apache-2.0. -->
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    </PropertyGroup>
+</Project>
